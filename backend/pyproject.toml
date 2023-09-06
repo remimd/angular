@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "backend"
+version = "0.0.0"
+description = ""
+authors = ["Rémi Mandart"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+blacksheep = "^1.2.18"
+python-injection = "^0.2.4"
+uvicorn = "^0.23.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+flake8 = "*"
+isort = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
